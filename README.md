@@ -1,9 +1,10 @@
 # OrganDonation
-Lashbrook Advertising Final Project: Organ Donors Ontario Work In Progress!
+***Lashbrook Advertising Final Project:*** Organ Donors Ontario Work In Progress!
 
  ***Goal:*** Bring Awareness to the need for organ donors in Ontario
 
-### To Do: 
+
+# To Do: 
     
     
     - Create solid concepts on how to market and advertise this
