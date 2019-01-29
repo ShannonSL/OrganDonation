@@ -33,4 +33,4 @@ Lashbrook Advertising Final Project: Organ Donors Ontario Work In Progress!
 - Project Manager: *Shannon*
 - Motion Graphics: *Jorge*
 - Designer: *Jay*
-- Developer | Shadia | [Github](https://vue.com) | [Portfolio](https://shadiaali.ca)
+- Developer | Shadia | [Git](https://github.com/shadiaali) | [Portfolio](https://shadiaali.ca)
