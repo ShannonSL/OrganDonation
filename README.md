@@ -1,7 +1,7 @@
 # OrganDonation
 Lashbrook Advertising Final Project: Organ Donors Ontario Work In Progress!
 
-### Goal: Bring Awareness to the need for organ donors in Ontario
+ ***Goal:*** Bring Awareness to the need for organ donors in Ontario
 
 ### To Do: 
     
@@ -29,7 +29,7 @@ Lashbrook Advertising Final Project: Organ Donors Ontario Work In Progress!
     - Motion Graphic videos, for youtube and tv
     - STRONG taglines to pick from
    
-### Team
+# Team
 - **Project Manager** | *Shannon* | [Git](https://github.com/ShannonSL) | [Portfolio](http://shannonstoltzlimin.ca/)
 - **Motion Graphics** | *Jorge* | [Git](https://github.com/JorgeAndrino) | [Portfolio](http://jmavdb.com/)
 - **Designer** | *Jay* | [Git](https://github.com/jvernon3) | [Portfolio](http://jayvernon.ca)
