@@ -43,3 +43,4 @@ To bring Awareness to the need for organ donors in Ontario
 - **Motion Graphics** |  *Jorge*  | [Git](https://github.com/JorgeAndrino) | [Portfolio](http://jmavdb.com/)
 - **Designer**        |   *Jay*   | [Git](https://github.com/jvernon3) | [Portfolio](http://jayvernon.ca)
 - **Developer**       | *Shadia*  | [Git](https://github.com/shadiaali) | [Portfolio](https://shadiaali.ca)
+

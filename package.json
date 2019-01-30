@@ -1,0 +1,34 @@
+{
+  "name": "organ donation campaign",
+  "version": "1.0.0",
+  "description": "The main objective of this project is for teams of students to pitch, design and develop a professional advertising campaign and website for the Organ Donation Project.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "author": "Shadia Ali <shadia@shadiaali.ca>",
+  "bugs": {
+    "url": "https://github.com/ShannonSL/OrganDonation/issues",
+
+  },
+  "dependencies": {
+    "foundation-sites": "^6.5.1",
+    "jquery": ">=3.0.0",
+    "motion-ui": "~2.0.0",
+    "what-input": "^5.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.18.13",
+    "gulp": "^4.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShannonSL/OrganDonation.git"
+  },
+  "private": true
+}
