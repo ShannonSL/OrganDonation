@@ -1,4 +1,4 @@
-# Final Integrated Project | Lashbrook Advertising
+# Organ Donation Campaign | Lashbrook Advertising
 The main objective of this project is for teams of students to pitch, design and develop a professional advertising campaign and website for the Organ Donation Project.
 
 
