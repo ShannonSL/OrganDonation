@@ -1,0 +1,23 @@
+REGISTER NOW Button on Video Header - Links to ServiceOntario Organ page
+https://www.ontario.ca/page/organ-and-tissue-donor-registration?utm_source=so&utm_medium=keyword&utm_campaign=original
+
+
+The Register Now navigation element also links to the same page
+
+Events in Nav will link to the Event website if we still plan on making that
+
+
+Register Now in the "How To" Breakdown, will link to the serviceontario link
+
+Events button at the bottom will link to event page.
+
+
+
+
+
+
+TRANSITIONS
+
+Hero Video Text will slide in from left side
+Outlined person in the first infographic image will fade in
+When hovering over one of the 8 people, heart will fade over top

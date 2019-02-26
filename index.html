@@ -9,14 +9,60 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 
-<body>
-  <div class="grid-container">
 
+
+
+<body>
+  <!-- start of grid container-->
+  <div class="grid-container full">
+    <!--start of top login bar-->
+    <div class="grid-x">
+      <div class="small-12 cell sign-in">
+        Sign in
+      </div>
+    </div>
+    <!--start of nav-->
+    <div class="top-bar">
+      <div class="top-bar-title">
+        <h1 class="top-bar-brand"><strong>Brand</strong></h1>
+      </div>
+      <div id="responsive-menu" data-toggler=".expanded" class="float-right">
+        <button class="menu-icon dark" type="button" data-toggle="responsive-menu"></button>
+        <button class="close-button" aria-label="Close alert" type="button" data-toggle="responsive-menu">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <nav class="nav-menu">
+          <ul class="vertical menu">
+            <li class="menu-title">Foundation Rules!</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+      </div>
+    </div>
+    <!--end of nav-->
 
     <div class="grid-x">
-      <div class="large-12 cell boxHelper">
-        <h1>Welcome to Foundation</h1>
-      </div></div>
+      <!--grid-x-->
+      <div class="large-12 cell">
+        <!--main container-->
+        <!--call to action-->
+        <div class="large-12 cell call-to-action">
+          <h1 class="action-header">Help someone out there</h1>
+          <h2 class="action-sub-header">Recycle Yourself</h2>
+          <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="about.html" class="button">Register</a>
+        </div>
+        <!--end call to action-->
+
+        <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+        <video autoplay loop id="video-background" muted plays-inline>
+          <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+
+        <!--end main container-->
+      </div>
+      <!--end grid-x-->
+    </div>
 
   </div>
 
