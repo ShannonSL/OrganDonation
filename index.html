@@ -8,6 +8,7 @@
   <title>Organ Campaign Shell</title>
   <link rel="stylesheet" href="https://use.typekit.net/dab6rec.css">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 
@@ -23,23 +24,32 @@
       </div>
     </div>
     <!--start of nav-->
-    <div class="top-bar">
-      <div class="top-bar-title">
-        <h1 class="top-bar-brand"><strong>Brand</strong></h1>
-      </div>
-      <div id="responsive-menu" data-toggler=".expanded" class="float-right">
-        <button class="menu-icon dark" type="button" data-toggle="responsive-menu"></button>
-        <button class="close-button" aria-label="Close alert" type="button" data-toggle="responsive-menu">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <nav class="nav-menu">
-          <ul class="vertical menu">
-            <li class="menu-title">Foundation Rules!</li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-      </div>
-    </div>
+    <!-- mobile nav bar -->
+  <div class="title-bar topbar-center-logo-mobile topbar-responsive wow fadeIn" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+  <div class="title-bar-left">
+    <div class="title-bar-title"><a href="index.html"><img src="images/logo.svg" style="height:39px;"  alt="logo" class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="6s"></a></div>
+  </div>
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+  </div>
+  </div>
+  <!-- /mobile nav bar -->
+
+  <!-- medium and larger nav bar -->
+  <div class="top-bar topbar-center-logo wow fadeIn" id="topbar-center-logo">
+
+  <div class="top-bar-center">
+    <a href="index.html"><img src="images/logo.svg"  class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration="6s" style="height:55px;" alt="logo"></a>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal menu-hover-lines">
+      <li class="wow fadeIn"  data-wow-duration="6s"><a href="index.html">Home</a></li>
+      <li class="wow fadeIn"  data-wow-duration="6s"><a href="about.html">About Me</a></li>
+      <li class="wow fadeIn"  data-wow-duration="6s"><a href="work.html">My Work</a></li>
+      <li class="wow fadeIn"  data-wow-duration="6s"><a href="contact.html">Get in Touch</a></li>
+      </ul>
+  </div>
+  </div>
     <!--end of nav-->
 
     <div class="grid-x">
@@ -48,10 +58,10 @@
         <!--main container-->
         <!--call to action-->
         <div class="large-12 cell call-to-action">
-          <h1 class="action-header">Reduce. Re-use.</h1>
-          <h2 class="action-sub-header">Recycle... Yourself.</h2>
+          <h1 class="action-header">Reduce. Re-use. Recycle...</h1>
+          <h2 class="action-sub-header">Yourself.</h2>
           <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="about.html" class="button">Register Now</a>
+          <pulse-button><a href="#">Register Now</a></pulse-button>
         </div>
         <!--end call to action-->
 
