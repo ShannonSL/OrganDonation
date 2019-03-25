@@ -18,13 +18,13 @@ export default {
             <h3 class="action-header">Reduce. Reuse. Recycle...</h3>
             <h3 class="action-sub-header">Yourself.</h3>
           
-            <h4 class="action-text">Did you know that you contain renewable materials?
+            <div class="action-text">Did you know that you contain renewable materials?<br>
             Have you ever thought of recycling... yourself?<br>
-            In the time it took you to read this, you could have already signed up :o.<br>
+            In the time it took you to read this, you could have already signed up.<br>
              All you need is your Ontario health card.<br>
-            You could do it anywhere: online, or at Service Canada centre when you get your drivers license renewed.<br>
-            <i>Do you have 30 seconds to save a life?</i>
-            You recycle everything else.... <b>why not your organs?</b></h4>
+          
+            <i>Do you have 30 seconds to save a life?</i><br>
+            You recycle everything else.... <br><b>why not your organs?</b></div>
             <pulse-button><a href="#">Register Now</a></pulse-button>
           </div>
         </div>
