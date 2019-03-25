@@ -25,7 +25,7 @@ export default {
           
             <i>Do you have 30 seconds to save a life?</i><br>
             You recycle everything else.... <br><b>why not your organs?</b></div>
-            <pulse-button><a href="#">Register Now</a></pulse-button>
+            <pulse-button><a href="https://www.ontario.ca/page/organ-and-tissue-donor-registration?utm_source=so&utm_medium=keyword&utm_campaign=original" target="_blank">Register Now</a></pulse-button>
           </div>
         </div>
         

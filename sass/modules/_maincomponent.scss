@@ -188,7 +188,7 @@ h1 {
 
 .button_container {
 	position: fixed;
-	top: 5%;
+	top: 3%;
 	right: 2%;
 	height: $button-height;
 	width: $button-width;
@@ -350,7 +350,7 @@ h1 {
 vid-cont,
 .view {
   height: 100vh;
-  margin-top:-80px;
+  //margin-top:-80px;
   
 }
 
@@ -358,7 +358,7 @@ vid-cont,
   vid-cont,
   .view {
 	//height: 100vh;
-	margin-top:-80px;
+	//margin-top:-80px;
 	overflow-x: hidden;
     
     overflow-y:auto;
