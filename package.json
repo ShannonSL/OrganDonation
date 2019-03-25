@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Organ donation campaign",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "author": "Shadia Ali",
   "license": "ISC",
   "dependencies": {},

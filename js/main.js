@@ -129,3 +129,6 @@ $('#toggle').click(function () {
   $(this).toggleClass('active');
   $('#overlay').toggleClass('open');
 });
+
+//wow init
+new WOW().init();

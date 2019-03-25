@@ -1,4 +1,3 @@
-import FooterComponent from "./FooterComponent.js";
 import UserListComponent from './UserListComponent.js';
 
 export default {
@@ -10,7 +9,7 @@ export default {
 
     <userlistcomponent v-for="(user, index) in userList" :currentUser="user" :key="index"></userlistcomponent>     
      
-    <footercomponent></footercomponent>
+   
 </div>
      `,
  
@@ -49,7 +48,7 @@ export default {
       },
   
     components: {
-        footercomponent: FooterComponent,
+       
         userlistcomponent: UserListComponent
       }
  }

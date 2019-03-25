@@ -1,3 +1,20 @@
 @import '_vars';
 @import 'modules/_footercomponent';
 @import 'modules/_maincomponent';
+
+.wow {
+    visibility: hidden;
+  }
+
+  .view {
+    
+    //overflow-x:auto !important;
+    cursor: default;
+    //height:100vh;
+    }
+
+body {
+  background-color:$color-background !important;
+  
+  
+}

@@ -1,13 +1,13 @@
 //fluid container width needs a hidden overflow-x
 body {
-	//background: #fefefe;
-	color: #0a0a0a;
-	overflow-x: hidden;
+	background: #000000;
+	color: #fff;
+	//overflow-x: hidden;
 	font-family: basic-sans, sans-serif;
 }
 
 a:link {
-	color: black;
+	color: rgb(226, 219, 219);
 }
 
 a:hover {
@@ -35,7 +35,7 @@ a:hover {
 
 .call-to-action {
 	margin-left: 2%;
-	margin-top: 20%;
+	margin-top: 10%;
 	width: 60vw;
 
 }
@@ -46,6 +46,7 @@ a:hover {
 	line-height: 60px;
 	color: #fff;
 	letter-spacing: 3px;
+	text-align:left;
 }
 
 .action-sub-header {
@@ -54,6 +55,7 @@ a:hover {
 	line-height: 65px;
 	color: #ec2027;
 	letter-spacing: 6px;
+	text-align:left;
 }
 
 .action-text {
@@ -63,6 +65,8 @@ a:hover {
 	line-height: 1.2em;
 	//font-weight:bold;
 	width: 60vw;
+	text-align:left;
+	margin-bottom:20px;
 }
 
 //pulse button
@@ -71,14 +75,16 @@ pulse-button {
 	color: #000;
 	letter-spacing: 3px;
 	background: #ec2027;
-	height: 130px;
-	text-align: center;
-	padding: 10px;
+	font-size:1em; 
+	
+	padding: 15px;
+	padding-top:5px;
 	border-radius: 40px;
 	background: #fff;
 	text-transform: uppercase;
 	box-shadow: #000;
 	animation: pulse 2s linear infinite;
+margin-top:20px;
 
 }
 
@@ -114,24 +120,25 @@ pulse-button {
 	z-index: -100;
 }
 
+
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 
-$color-background: #F5F5F5;
-$color-main: #FF5252;
+$color-background: #000000;
+$color-main: rgb(250, 243, 243);
 $color-active: #FFF;
-$color-link: #FFF;
+$color-link: rgb(236, 52, 28);
 
 $button-height: 27px;
 $button-width: 35px;
 
 body {
-	background: $color-background;
+	background: $color-background !important;
 }
 
-.container {
+.my-container {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	
+	height: 100vh;
 	text-align: center;
 	top: 40%;
 	left: 0;
@@ -143,10 +150,10 @@ body {
 	}
 
 	a {
-		display: inline-block;
+		
 		position: relative;
 		text-align: center;
-		color: $color-main;
+		color: $color-link;
 		text-decoration: none;
 		font-size: 20px;
 		overflow: hidden;
@@ -155,7 +162,7 @@ body {
 		&:after {
 			content: '';
 			position: absolute;
-			background: $color-main;
+			background: $color-link;
 			height: 2px;
 			width: 0%;
 			transform: translateX(-50%);
@@ -185,7 +192,7 @@ h1 {
 	height: $button-height;
 	width: $button-width;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 999 !important;
 	transition: opacity .25s ease;
 
 	&:hover {
@@ -195,22 +202,22 @@ h1 {
 	&.active {
 		.top {
 			transform: translateY(11px) translateX(0) rotate(45deg);
-			background: $color-active;
+			background: $color-link;
 		}
 
 		.middle {
 			opacity: 0;
-			background: $color-active;
+			background: $color-link;
 		}
 
 		.bottom {
 			transform: translateY(-11px) translateX(0) rotate(-45deg);
-			background: $color-active;
+			background: $color-link;
 		}
 	}
 
 	span {
-		background: $color-main;
+		background: $color-link;
 		border: none;
 		height: 5px;
 		width: 100%;
@@ -241,6 +248,7 @@ h1 {
 	visibility: hidden;
 	transition: opacity .35s, visibility .35s, height .35s;
 	overflow: hidden;
+	z-index: 90 !important;
 
 	&.open {
 		opacity: .9;
@@ -331,4 +339,88 @@ h1 {
 		opacity: 1;
 		left: 0;
 	}
+}
+
+/* Required for full background image */
+
+vid-cont,
+.view {
+  height: 100vh;
+  margin-top:-80px;
+  
+}
+
+@media (max-width: 740px) {
+  vid-cont,
+  .view {
+	//height: 100vh;
+	margin-top:-80px;
+	overflow-x: hidden;
+    
+    overflow-y:auto;
+
+  }
+  .call-to-action {
+	margin-left: 2%;
+	//margin-top: 10%;
+	//width: 60vw;
+
+}
+
+.action-header {
+	font-family: bebas-neue, sans-serif;
+	font-size: 3em;
+	line-height: 60px;
+	color: #fff;
+	letter-spacing: 3px;
+	text-align:left;
+}
+
+.action-sub-header {
+	font-family: bebas-neue, sans-serif;
+	font-size: 5em;
+	line-height: 65px;
+	color: #ec2027;
+	letter-spacing: 6px;
+	text-align:left;
+}
+
+.action-text {
+	font-family: basic-sans, sans-serif;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	//font-weight:bold;
+	//width: 60vw;
+	text-align:left;
+}
+.container {
+	position: absolute;
+	
+	height: 100vh;
+	text-align: center;
+	top: 10%;
+	left: 0;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;}
+
+//pulse button
+pulse-button {
+	font-family: basic-sans, sans-serif;
+	color: #000;
+	letter-spacing: 3px;
+	background: #ec2027;
+	font-size:12px; 
+	
+	padding: 5px;
+	padding-top:5px;
+	border-radius: 20px;
+	background: #fff;
+	text-transform: uppercase;
+	box-shadow: #000;
+	animation: pulse 2s linear infinite;
+	margin-bottom: 1em;
+	
+
+}
 }

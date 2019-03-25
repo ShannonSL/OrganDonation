@@ -1,4 +1,3 @@
-import FooterComponent from "./FooterComponent.js";
 
 export default {
     props: ['userinfo'],
@@ -25,7 +24,7 @@ export default {
     
     </div>
 </div>
-<footercomponent></footercomponent>
+
 </div>
      `,
 
@@ -109,6 +108,6 @@ export default {
           }
     },
     components: {
-        footercomponent: FooterComponent
+         
       }
  }

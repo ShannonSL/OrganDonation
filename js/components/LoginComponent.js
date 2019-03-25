@@ -1,4 +1,4 @@
-import FooterComponent from "./FooterComponent.js";
+
 
 
 export default {
@@ -18,7 +18,7 @@ export default {
     </form>
     
    
-    <footercomponent></footercomponent>
+   
 </div>
      `,
  
@@ -81,6 +81,6 @@ export default {
         }
     },
     components: {
-        footercomponent: FooterComponent
+        
       }
  }
