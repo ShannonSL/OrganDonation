@@ -31,7 +31,7 @@
 <body>
     <main id="app">
 
-       
+
 
         <div class="overlay" id="overlay">
             <nav class="overlay-menu">
@@ -39,6 +39,14 @@
                     <li>
                         <router-link :to="nav.url">{{ nav.name }}</router-link>
                     </li>
+                    <li>
+                        <router-link :to="{ path: '/learnmore'}">Learn More</router-link>
+                    </li>
+
+                    <li>
+                        <router-link :to="{ path: '/recyclaball'}">Recycla-Ball</router-link>
+                    </li>
+
                     <li v-if="authenticated">
                         <router-link :to="{ name: 'userlists'}">Users</router-link>
                     </li>
@@ -52,22 +60,22 @@
             </nav>
         </div>
 
-        
 
-<!-- logo -->
-<div class="top p-0 ml-2 mt-4">
-    <img src="images/logo.svg" alt="logo" style="height:65px;">
 
-    <div class="button_container" id="toggle">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-    </div>
-</div>
-<!-- Copyright -->
+        <!-- logo -->
+        <div class="top p-0 ml-2 mt-4">
+                <router-link to="/main"><img src="images/logo.svg" alt="logo" style="height:65px;"/></router-link>
+
+
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+        <!-- Copyright -->
 
         <div class="grid-container full">
-            
 
 
 
@@ -76,23 +84,24 @@
 
 
 
-                <transition name="fade" mode="out-in">
-                    <router-view @authenticated="setAuthenticated" />
-                </transition>
 
-            </div>
-                <!-- Footer -->
-                
+            <transition name="fade" mode="out-in">
+                <router-view @authenticated="setAuthenticated" />
+            </transition>
 
-                
+        </div>
+        <!-- Footer -->
 
-                    
 
-               
-                <!-- Footer -->
 
-            
-            
+
+
+
+
+        <!-- Footer -->
+
+
+
     </main>
 
     <!-- JAVASCRIPT FILES START HERE -->

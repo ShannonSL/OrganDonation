@@ -2,6 +2,10 @@ import MainComponent from './components/MainComponent.js';
 import LoginComponent from './components/LoginComponent.js';
 import UserListsComponent from './components/UserListsComponent.js';
 import EditComponent from './components/EditComponent.js';
+import LearnMoreComponent from './components/LearnMoreComponent.js';
+import RecyclaBallComponent from './components/RecyclaBallComponent.js';
+
+
 
 
 let router = new VueRouter({
@@ -31,6 +35,21 @@ let router = new VueRouter({
       component: LoginComponent,
       props: true
     },
+
+    {
+      path: '/learnmore',
+      name: "Learn More",
+      component: LearnMoreComponent
+      
+    },
+
+    {
+      path: '/recyclaball',
+      name: "Rycycla-Ball",
+      component: RecyclaBallComponent
+      
+    },
+
     {
       path: '/userlists',
       name: "userlists",
@@ -72,8 +91,9 @@ const vm = new Vue({
 
 
     navlist: [{
-        name: "home",
-        url: "main"
+        name: "HOME",
+        url: "main",
+        
       },
 
 
