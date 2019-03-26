@@ -35,6 +35,20 @@ npm install
 
 Finally, run `gulp` to run the Sass compiler. Don't forget to import to a new database called `db_recycleyourself`.
 
+
+## Built With
+
+* [Gulp](https://gulpjs.com/)
+* [SASS](https://sass-lang.com/)
+* [Vue.js](https://vuejs.org/)
+* [Bootstrap](https://bootstrap.com/)
+* [Material Design](https://fezvrasta.github.io/bootstrap-material-design/)
+* [wow.JS](https://mynameismatthieu.com/WOW/)
+* [animate.css](https://daneden.github.io/animate.css/)
+* [Git](https://git-scm.com/)
+* [npm](https://www.npmjs.com/)
+* A lot of coffee 
+
    
 # Team
 - **Project Manager** | *Shannon* | [Git](https://github.com/ShannonSL) | [Portfolio](http://shannonstoltzlimin.ca/)
