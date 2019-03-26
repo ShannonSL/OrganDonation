@@ -40,7 +40,7 @@ export default {
    
     
   
-    <div class="container-fluid ml-1" style="width:98vw;">
+    <div class="container-fluid ml-1" style="width:100vw;">
 
 
     <!--Grid row-->
