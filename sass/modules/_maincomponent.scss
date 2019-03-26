@@ -115,7 +115,33 @@ pulse-button a:link {
 
 //end button
 
+//heart
+.heart {
+  //display: block;
+  //position: relative;
+  //top: 60px;
+  font-size: 2em;
+  color: rgb(221, 19, 46);
+  animation: pulsate 1.4s linear infinite;      
+}
 
+
+/* Keyframes */ 
+@keyframes pulsate {
+  0% { text-shadow: rgb(221, 19, 46) 0 0 .03em, rgb(237, 21, 50) 0 0 .1em, rgb(237, 21, 50) 0 0 .1em; }
+  
+  15% { text-shadow: rgb(221, 19, 46) 0 0 .03em, rgb(237, 21, 50) 0 0 .1em, rgb(237, 21, 50) 0 0 .2em; }
+  
+  25% { text-shadow: rgb(221, 19, 46) 0 0 .03em, rgb(237, 21, 50) 0 0 .1em, rgb(237, 21, 50) 0 0 .04em; }
+  
+  35% { text-shadow: rgb(221, 19, 46) 0 0 .03em, rgb(237, 21, 50) 0 0 .3em, rgb(237, 21, 50) 0 0 .16em; }
+  
+  65% { text-shadow: rgb(255, 109, 131) 0 0 .03em, rgb(237, 21, 50) 0 0 .2em, rgb(237, 21, 50) 0 0 .1em; }
+  
+  100% { text-shadow: rgb(255, 109, 131) 0 0 .03 em, rgb(237, 21, 50) 0 0 .2em, rgb(237, 21, 50) 0 0 .2em; }
+}
+
+//end
 
 
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);

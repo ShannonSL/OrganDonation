@@ -13,7 +13,8 @@ export default {
            
           <h3 class="heading display-4" style="font-family:bebas-neue, sans-serif;letter-spacing:3px;"> This</h3>
           <h2 class="heading display-1" style="font-family:bebas-neue, sans-serif;letter-spacing:3px;margin-top:-0.3em;"> Valentine's Day</h2>
-            <h1 class="heading display-1" style="margin-top:-0.3em; letter-spacing:3px;font-family:basic-sans, sans-serif;text-transform:uppercase;margin-left:1em;color:#ec2027;">You + Your &hearts;</h1>
+            <h1 class="heading display-2" style="margin-top:-0.3em; letter-spacing:3px;font-family:basic-sans, sans-serif;text-transform:uppercase;margin-left:1em;color:#ec2027;">You + Your   <i class="icon-heart heart"></i>
+            </h1>
             <h3 class="heading display-4" style="font-family:bebas-neue, sans-serif;letter-spacing:3px;margin-top:-0.3em;"> Are Invited to </h3>
             <h2 class="heading display-1" style="font-family:bebas-neue, sans-serif;letter-spacing:3px;margin-top:-0.3em;margin-bottom:1em;"> #RecycleYourself</h2>
             
