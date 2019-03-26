@@ -2,7 +2,7 @@
 export default {
     template: `
    
-    <section class="Vidview view para">
+    <section class="Vidview view para my-container">
   
     <div class="row mt-5 call-to-action">
 
@@ -10,7 +10,7 @@ export default {
 
         <div class="d-flex flex-column justify-content-center align-items-center h-100">
         <h3 class="action-header" style="text-align:left;">Reduce. Reuse. Recycle...</h3>
-        <h3 class="action-sub-header" style="text-align:left;margin-left:-2em;margin-bottom:10px;">Yourself.</h3>
+        <h3 class="action-sub-header display-1" style="text-align:left;margin-left:-2em;margin-bottom:10px;">Yourself.</h3>
 
         <p class="action-text">Did you know that you contain renewable materials?<br>
                 Have you ever thought of recycling... yourself?<br>
