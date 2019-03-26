@@ -7,7 +7,7 @@ export default {
   
       <div class="row">
   
-        <div class="col-md-8">
+        <div class="col-md-7">
   
           <div class="d-flex flex-column justify-content-center align-items-center h-100">
             <h1 class="heading display-1" style="text-align:left;font-family:bebas-neue, sans-serif;letter-spacing:3px;">More About</h1>
@@ -17,12 +17,11 @@ export default {
   
         </div>
   
-        <div class="col-md-3">
+        <div class="col-md-4">
   
           <div class="view">
             <img src="images/heart_ry.png" class="img-fluid" alt="heart">
-            <div class="mask flex-center hm-gradient">
-            </div>
+            
           </div>
   
         </div>

@@ -27,11 +27,20 @@ a:hover {
 
 //main page
 
-.call-to-action {
-	margin-left: 2%;
-	margin-top: 10%;
-	width: 60vw;
+//.call-to-action {
+	//margin-left: 2%;
+	//margin-top: 10%;
+	//width: 60vw;
 
+//}
+
+.para{
+	background-image: url('http://shadiaali.ca/hands.jpg');
+	height: 100vh; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .action-header {
@@ -58,9 +67,9 @@ a:hover {
 	font-size: 1.2em;
 	line-height: 1.2em;
 	//font-weight:bold;
-	width: 60vw;
+	//width: 60vw;
 	text-align:left;
-	margin-bottom:20px;
+	//margin-bottom:20px;
 }
 
 //pulse button
