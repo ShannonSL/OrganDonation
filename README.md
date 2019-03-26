@@ -4,6 +4,7 @@
 # Organ Donation Campaign | Lashbrook Advertising
 The main objective of this project is for teams of students to pitch, design and develop a professional advertising campaign and website for the Organ Donation Project.
 
+For your convenience, a live version of the site can be found [here](https://shadiaali.ca/organs)
 
 # Goal
 To bring Awareness to the need for organ donors in Ontario
