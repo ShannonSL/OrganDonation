@@ -8,16 +8,17 @@ export default {
    
     <h4>{{loginMessage}}</h4>
     
-    <form action="login.html" class="login-form" method="post">
-        <label for="username" class="hide">Username:</label>
-        <input v-model="input.username" type="text" placeholder="username"/>
-        <label for="password" class="hide">Password</label>
-        <input v-model="input.password" type="password" placeholder="password"/>
-        <button v-on:click.prevent="login()" type="submit">login</button>
-        
-    </form>
+
     
-   
+    <div class="wrapper container full" style="width:80%;"><center>
+    <form action="login.html" class="form-signin" method="post">       
+      <h2 class="form-signin-heading">Admin Login</h2>
+      <input type="text" v-model="input.username" class="form-control" name="username" placeholder="user" required="" autofocus="" />
+      <input v-model="input.password" class="form-control" name="password" type="password" placeholder="pass" required=""/>      
+      
+      <button v-on:click.prevent="login()" class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    </form></center>
+  </div>
    
 </div>
      `,

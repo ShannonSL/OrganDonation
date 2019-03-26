@@ -4,11 +4,13 @@ export default {
     template: `
     <div>
     
-            <h2>Administrators</h2>
+            <h2 class="display-2" style="text-align:center;font-family:bebas-neue, sans-serif;letter-spacing:3px;color:#1569C7;">Administrators</h2>
        
 
-    <userlistcomponent v-for="(user, index) in userList" :currentUser="user" :key="index"></userlistcomponent>     
-     
+        
+        <userlistcomponent v-for="(user, index) in userList" :currentUser="user" :key="index"></userlistcomponent> 
+        
+
    
 </div>
      `,

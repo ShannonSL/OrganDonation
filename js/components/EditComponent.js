@@ -2,30 +2,31 @@
 export default {
     props: ['userinfo'],
     template: `
-    <div>
-    <div class="login-page">
-    <h3>WELCOME!!</h3>
-
-    <div class="form">
+    
    
-    <p>ROKU EDIT MAIN USER</p>
-     
+   <div class="container full" style="text-align:center;">
+
+    <div class="form" style="width:80%;">
+   
     <form action="login.html" class="login-form" method="post">
-        <label v-show for="fname" class="hide">Firstname:</label>
-        <input  v-model="input.firstname" name="fname" type="text" :placeholder="'Current fname: ' + c_userinfo.userfname" />
-        <label for="username" class="hide">Username</label>
-        <input v-model="input.username" name="username" type="text" :placeholder="'Current username: ' +c_userinfo.username" />
-        <label v-show for="email" class="hide">Email</label>
-        <input v-model="input.email" name="email" type="email" value="gggggg" :placeholder="'Current email: ' +c_userinfo.email"  />
-      
+       <h2>First Name</h2> <label v-show for="fname">First Fame:</label>
+        <input  v-model="input.firstname" name="fname" type="text" :placeholder="'Current: ' + c_userinfo.userfname" /><hr>
+        <h2>Username</h2>
+        <input v-model="input.username" name="username" type="text" :placeholder="'Current: ' +c_userinfo.username" /><hr>
+       
+        <h2>Email</h2><input v-model="input.email" name="email" type="email" value="gggggg" :placeholder="'Current: ' +c_userinfo.email"  />
+      <hr>
         <button type="submit" @click.prevent="edit_user(null)">Edit User</button>
         
     </form>
     
     </div>
-</div>
 
-</div>
+
+    
+
+
+
      `,
 
      data() {
@@ -49,11 +50,13 @@ export default {
         this.fetchCurrentUser(null);
        }
      
-   
+       
      },
  
      methods: {
 
+
+      
         fetchCurrentUser(grade) {
             console.log(grade)
             let userid = this.userinfo.id;
