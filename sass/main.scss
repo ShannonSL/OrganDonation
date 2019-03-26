@@ -1,5 +1,4 @@
 @import '_vars';
-@import 'modules/_footercomponent';
 @import 'modules/_maincomponent';
 
 .wow {
@@ -13,8 +12,3 @@
     //height:100vh;
     }
 
-body {
-  background-color:$color-background !important;
-  
-  
-}

@@ -2,8 +2,8 @@
 export default {
     template: `
    
-<!-- Full Page Intro -->
-  <div class="view">
+
+  <div class="Vidview view">
     <video class="video-intro" poster="images/hands.jpg">
       <source src="images/hands.jpg" type="video/mp4">
     </video>
