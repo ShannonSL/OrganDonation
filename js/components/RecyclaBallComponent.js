@@ -66,7 +66,7 @@ export default {
       <div data-wow-duration="2s" class="wow fadeIn col-sm-6 text-left mt-3">
       
       <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1tKpOwdaU_JHKQFT-0HsVUfZ9DAhvThMq/preview" allowfullscreen></iframe>
+      <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1pidR1KVtnC6_b_FkSSWke7VRFn5rBzWx/preview" allowfullscreen></iframe>
     </div>
       
     </div>
